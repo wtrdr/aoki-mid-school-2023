@@ -31,5 +31,6 @@ taskSubmit.addEventListener("click", (evt) => {
   evt.preventDefault();
   let task = taskValue.value;
   addTasks(task);
+
   taskValue.value = "";
 });
