@@ -17,7 +17,7 @@ let addTasks = (task) => {
 
   
   // タスクに削除ボタンを付与
-  let deleteButton = document.createElement;('in
+  let deleteButton = document.createElement;
   
   deleteButton.innerHTML = "Delete";
   listItem.appendChild(deleteButton);
