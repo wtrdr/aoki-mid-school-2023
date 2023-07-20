@@ -6,11 +6,19 @@ let taskList = document.getElementsByClassName("task_list")[0];
 let addTasks = (task) => {
   // 入力したタスクを追加・表示
   let listItem = document.createElement("li");
+  // TODO: ここでチェックボックスを作る
+  // こうやったら作れるよ！
+  // let check = document.createElement('input');
+  // check.setAttribute('type','checkbox');
+  
+  // TODO: ここで作ったチェックボックスをlistItemに追加す
   let showItem = taskList.appendChild(listItem);
   showItem.innerHTML = task;
 
+  
   // タスクに削除ボタンを付与
-  let deleteButton = document.createElement("button");
+  let deleteButton = document.createElement;('in
+  
   deleteButton.innerHTML = "Delete";
   listItem.appendChild(deleteButton);
 
